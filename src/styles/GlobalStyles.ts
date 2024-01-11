@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
 }
 body{
-    background-color: #f7f7f7;
+    background-color: #f5f5f5;
 }
 body, button{
     font-family: "Poppins", sans-serif;

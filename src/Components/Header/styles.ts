@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  background-color: navy;
+  background-color: #232632;
 `;
 
 export const HeaderTitle = styled.h1`
@@ -33,7 +33,7 @@ export const AuthButton = styled.button<AuthButtonProps>`
   border-radius: 5px;
   height: 30px;
   padding: 0 1rem;
-  background-color: ${(props) => (props.isLogged ? "red" : "green")};
+  background-color: ${(props) => (props.isLogged ? "red" : "#59c00b")};
   color: white;
   display: flex;
   align-items: center;
@@ -49,8 +49,8 @@ export const CardButton = styled.button`
   border-radius: 5px;
   height: 30px;
   padding: 0 1rem;
-  background-color: violet;
-  color: black;
+  background-color: #784ef4;
+  color: white;
   display: flex;
   align-items: center;
   gap: 0.3;

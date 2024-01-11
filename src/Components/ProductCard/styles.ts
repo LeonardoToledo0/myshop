@@ -49,15 +49,16 @@ export const AddToCardButton = styled.button`
   border-radius: 5px;
   height: 40px;
   width: 100%;
-  background-color: blue;
+  background-color: #59c00b;
   color: white;
   display: flex;
   align-items: center;
   gap: 0.3;
-  font-size: 0.75rem;
+  font-weight: 500;
+  font-size: 1rem;
   justify-content: center;
   svg {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 `;
 export const RemoveFromCartButton = styled.button`
@@ -65,14 +66,15 @@ export const RemoveFromCartButton = styled.button`
   border-radius: 5px;
   height: 40px;
   width: 100%;
-  background-color: violet;
-  color: black;
+  background-color: #784ef4;
+  color: white;
   display: flex;
   align-items: center;
   gap: 0.3;
-  font-size: 0.75rem;
+  font-weight: 500;
+  font-size: 1rem;
   justify-content: center;
   svg {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 `;

@@ -36,7 +36,7 @@ export const Cart: React.FC<CartProps> = ({ showCart, setShowCart }) => {
           </S.CartProductItem>
         ))}
       </S.CartProductList>
-      <S.CartTotal>Total: ${total}</S.CartTotal>
+      <S.CartTotal data-testid="total">Total: ${total}</S.CartTotal>
       <br />
       <S.ButtonClose onClick={() => setShowCart(!showCart)}>
         <CgCloseR />
